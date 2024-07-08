@@ -198,3 +198,43 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 637px) {
+
+    .search-engine-optimization,
+    .online-reputation-management,
+    .social-media-marketing>* {
+        display: block;
+        padding: 2px 15px;
+        max-width: 90%;
+    }
+
+    .search-engine-optimization,
+    .online-reputation-management,
+    .social-media-marketing {
+        height: 100%;
+        padding: 50px 2px;
+        background-color: lightcoral;
+    }
+
+    .search-engine-optimization img,
+    .online-reputation-management img,
+    .social-media-marketing img {
+        max-width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .main {
+        display: block;
+        padding: 50px;
+    }
+
+    /* .benefits {
+        padding: 5px 0px;
+        margin: 100px 0px;
+        background-color: green;
+    } */
+}
